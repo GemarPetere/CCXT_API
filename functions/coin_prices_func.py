@@ -1,6 +1,5 @@
 import ccxt
 
-
 def getCoinPrice(exchangeName: str):
     data = []
     ticker =[]

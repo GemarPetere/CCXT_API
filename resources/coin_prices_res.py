@@ -3,7 +3,7 @@ from flask_restful import Resource, request
 from flask import jsonify
 import os
 import json
-from functions.coinPrices.coin_prices_func import getCoinPrice
+from functions.coin_prices_func import getCoinPrice
 
 class CoinPrices(Resource):
     def post(self):
